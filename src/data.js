@@ -16,6 +16,7 @@ export const portfolioData = {
       description: "A predictive organizational knowledge preservation platform. Features a local AI assistant, document text extraction, and a custom risk engine to score knowledge-loss risks.",
       tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Sequelize"],
       link: "https://github.com/Bhuvaneshwari-12-mern/KnowGuard-AI",
+      live: "https://know-guard-ai.vercel.app"
     }
   ]
 };

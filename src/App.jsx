@@ -77,8 +77,15 @@ function App() {
             <div key={project.title} className="bg-slate-800/40 backdrop-blur-sm rounded-3xl border border-slate-700 p-8 md:p-10 hover:border-indigo-500/50 transition-all hover:shadow-2xl hover:shadow-indigo-500/10 group">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
                 <h4 className="text-3xl font-bold text-white group-hover:text-indigo-400 transition-colors">{project.title}</h4>
+                
+                {/* BUTTONS */}
                 <div className="flex gap-3">
-                  <a href={project.link} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-slate-700 text-white rounded-lg text-sm font-semibold hover:bg-indigo-600 transition-colors">
+                  {project.live && (
+                    <a href={project.live} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-5 py-2.5 bg-indigo-600 text-white rounded-lg text-sm font-bold hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-500/30 hover:-translate-y-0.5">
+                      Live Demo
+                    </a>
+                  )}
+                  <a href={project.link} target="_blank" rel="noreferrer" className="flex items-center gap-2 px-5 py-2.5 bg-slate-700 text-white rounded-lg text-sm font-bold hover:bg-slate-600 transition-all hover:-translate-y-0.5">
                     Source Code
                   </a>
                 </div>

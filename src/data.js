@@ -17,6 +17,14 @@ export const portfolioData = {
       tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Sequelize"],
       link: "https://github.com/Bhuvaneshwari-12-mern/KnowGuard-AI",
       live: "https://know-guard-ai.vercel.app"
+    },
+    {
+      title: "CyberShield",
+      description: "A Power BI-inspired Business Intelligence dashboard for cybersecurity. Features interactive charts, dynamic cross-filtering, and CSV export.",
+      tech: ["React", "Node.js", "MySQL", "Chart.js", "Tailwind CSS"],
+      link: "https://github.com/Bhuvaneshwari-12-mern/CyberShield-Dashboard",
+      live: "https://cyber-shield-dashboard-liart.vercel.app"
     }
+
   ]
 };

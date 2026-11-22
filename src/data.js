@@ -24,7 +24,13 @@ export const portfolioData = {
       tech: ["React", "Node.js", "MySQL", "Chart.js", "Tailwind CSS"],
       link: "https://github.com/Bhuvaneshwari-12-mern/CyberShield-Dashboard",
       live: "https://cyber-shield-dashboard-liart.vercel.app"
+    },
+    {
+      title: "CivicShield",
+      description: "An AI-powered public infrastructure platform. Citizens can report issues with images and location pins. Features duplicate detection, role-based access, and real-time status updates.",
+      tech: ["React", "Node.js", "MongoDB", "Leaflet Maps", "Tailwind CSS"],
+      link: "https://github.com/Bhuvaneshwari-12-mern/CivicShield",
+      // live: "" (Add this later if you deploy)
     }
-
   ]
 };
